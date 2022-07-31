@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Way's resturant website</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    
+   <!-- font awesome cdn link 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/stylemenu.css">
+
+   <!-- custom js file link  -->
+   <script src="js/menu.js" defer></script>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Food Way's </a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="menu2.html">Menu</a>
+        <a href="Events.html">Events</a>
+        <a href="Booking.html">Booking</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="menuimages/images/7.png" alt="">
+            <div class="content">
+                <h3>tikka</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="menuimages/images/8.PNG" alt="">
+            <div class="content">
+                <h3>beef burger</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="menuimages/images/9.PNG" alt="">
+            <div class="content">
+                <h3>chicken tikka</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $19.69/- </div>
+        <a href="checkout.html" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="signin.html">click here</a></p>
+        <p>don't have an account <a href="signin.html">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3> <span>Top Deals</span></h3>
+        
+        <!-- <a href="menu2.html" class="btn">Menu</a> -->
+        <div class="dropdown">
+          <div class="dropdown-select">
+              <span class="select">Select Your favourite Deal</span>
+              <div class="fas fa-caret-down" id="login-btn"></div>
+          </div>
+          <div class="dropdown-list">
+              <div class="dropdown-list_item"><a href="#sandwitches">Sandwitches</a></div>
+              <div class="dropdown-list_item"><a href="#burger">Burger</a></div>
+              <div class="dropdown-list_item"><a href="#rolls">Rolls</a></div>
+              <div class="dropdown-list_item"><a href="#appetizers">Apetizers</a></div>
+              <div class="dropdown-list_item"><a href="#Ice-cream">Ice-cream</a></div>
+
+          
+          </div>
+      </div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+
+
+
+<!--                      SANDWITCHES STARTS                                                -->
+<!-- products sandwitches section starts  -->
+<a href="" name="sandwitches"></a>
+<section class="products" id="products">
+    <h1 class="heading1"> <span>sandwitches</span> </h1>
+
+</section>
+
+<!-- deal section start here -->
+
+
+<section class="blogs" id="blogs">
+
+  <div class="box-container">
+
+
+
+      <div class="box">
+          <img src="menuimages/images/25.PNG" alt="">
+
+          <div class="content">
+     
+              <h3>chicken Club Sandwitch</h3>
+              <h2>Buy one get 3 Free</h2>
+              <h3>$4.50</h3>
+              <div>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                 </div>
+             
+              </div>
+            
+            
+              <p>chicken, cheese, egg, bread, cucumber, red bell pepper, green chilies.</p>
+              <a href="#" class="btn">order now</a>
+
+          </div>
+      </div>
+
+      <div class="box" >
+        <img src="menuimages/images/26.PNG" alt="">
+
+        <div class="content">
+   
+            <h3>chicken Cheese Vegetable Sandwitch</h3>
+            <h2>Buy one get 2 sandwitches and fries Free</h2>
+            <h3>$5.50</h3>
+            <div>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span>( 250 )</span>
+               </div>
+           
+            </div>
+          
+          
+            <p>chicken, cheese, bread, spinich, apple cider vineger, red bell pepper, green chilies.</p>
+            <a href="#" class="btn">order now</a>
+
+        </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- deal section ends here -->
+<!-- products  sandwitches section ends -->
+
+
+
+<!--                      SANDWITCHES ENDS                                              -->
+
+
+
+<!--                      BURGER STARTS                                                -->
+<!-- products burger section starts  -->
+<a href="" name="burger"></a>
+<section class="products" id="products">
+    <h1 class="heading1"> <span>burger</span> </h1>
+</section>
+
+<!-- deal section start here -->
+
+
+<section class="blogs" id="blogs">
+
+
+ 
+   <div class="box-container">
+ 
+
+ 
+       <div class="box">
+           <img src="menuimages/images/55.PNG" alt="">
+
+           <div class="content">
+      
+               <h3>Beef Double Cheese Burger</h3>
+               <h2>Buy one get 1 Beef Double Cheese Burger & 2 Drinks Free</h2>
+               <h3>$5.50</h3>
+               <div>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                     <span>( 250 )</span>
+                  </div>
+              
+               </div>
+             
+             
+               <p>beef, wheat flour, all purpose flour, cucumber, tomato, mint, olive oil, bread crumb.</p>
+               <a href="#" class="btn">order now</a>
+
+           </div>
+       </div>
+
+       <div class="box" >
+         <img src="menuimages/images/48.PNG" alt="">
+
+         <div class="content">
+    
+             <h3>chicken Cheesy Burger</h3>
+             <h2>Buy one get 1 chicken Cheesy Burger and fries Free</h2>
+             <h3>$6.20</h3>
+             <div>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+                   <span>( 250 )</span>
+                </div>
+            
+             </div>
+           
+           
+             <p>chicken, wheat flour, cheese, cucumber, tomato, olive oil, bread crumb.</p>
+             <a href="#" class="btn">order now</a>
+
+         </div>
+     </div>
+ 
+   </div>
+ 
+ </section>
+ 
+
+<!-- deal section ends here -->
+
+<!--                      BURGER ENDS                                              -->
+
+
+
+
+
+
+
+<!--                      ROLLS STARTS                                                -->
+<!-- products rolls section starts  -->
+<a href="" name="rolls"></a>
+<section class="products" id="products">
+    <h1 class="heading1"> <span>Rolls</span> </h1>
+
+ 
+
+</section>
+<!-- deal section start here -->
+
+
+<section class="blogs" id="blogs">
+
+
+
+  <div class="box-container">
+
+
+
+      <div class="box">
+          <img src="menuimages/images/41.PNG" alt="">
+
+          <div class="content">
+     
+              <h3>Chicken Vegetable Roll</h3>
+              <h2>Buy one get 2 Chicken Vegetable Rolls Free</h2>
+              <h3>$4.90</h3>
+              <div>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                 </div>
+             
+              </div>
+            
+            
+              <p>chicken, vegetables, egg, red bell pepper, bread crumb, green chilies.</p>
+              <a href="#" class="btn">order now</a>
+
+          </div>
+      </div>
+
+      <div class="box" >
+        <img src="menuimages/images/44.PNG" alt="">
+
+        <div class="content">
+   
+            <h3>chicken Butter Roll</h3>
+            <h2>Buy one get 3 chicken Butter Rolls and fries Free</h2>
+            <h3>$6.10</h3>
+            <div>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span>( 250 )</span>
+               </div>
+           
+            </div>
+          
+          
+            <p>chicken, butter, white vinegar, bread crumb, rod hot spice, cucumber, tomato</p>
+            <a href="#" class="btn">order now</a>
+
+        </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- deal section ends here -->
+
+
+<!--                      ROLS ENDS                                    -->
+
+
+
+
+
+<!--                      APETIZERS STARTS                                                -->
+<!-- products apetizers section starts  -->
+<a href="" name="appetizers"></a>
+<section class="products" id="products">
+    <h1 class="heading1"> <span>Apetizers</span> </h1>
+</section>
+
+<!-- deal section start here -->
+
+
+<section class="blogs" id="blogs">
+
+
+
+  <div class="box-container">
+
+
+
+      <div class="box">
+          <img src="menuimages/images/39.PNG" alt="">
+
+          <div class="content">
+     
+              <h3>fish</h3>
+              <h2>Buy one get 2 fish(pcs) Free</h2>
+              <h3>$4.50</h3>
+              <div>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                 </div>
+             
+              </div>
+            
+            
+              <p>fish, egg, red bell pepper, bread crumb, green chilies.</p>
+              <a href="#" class="btn">order now</a>
+
+          </div>
+      </div>
+
+      <div class="box" >
+        <img src="menuimages/images/36.PNG" alt="">
+
+        <div class="content">
+   
+            <h3>chicken Cheesy Strips</h3>
+            <h2>Buy one get 3 chicken Cheesy Strips and fries Free</h2>
+            <h3>$6.00</h3>
+            <div>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span>( 250 )</span>
+               </div>
+           
+            </div>
+          
+          
+            <p>chicken, cheese, bread, apple cider vineger, red bell pepper, green chilies.</p>
+            <a href="#" class="btn">order now</a>
+
+        </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- deal section ends here -->
+
+<!--                      APPETIZERS ENDS                                    -->
+
+
+
+<!--                      ROLLS STARTS                                                -->
+<!-- products rolls section starts  -->
+<a href="" name="Ice-cream"></a>
+<section class="products" id="products">
+    <h1 class="heading1"> <span>Ice-cream</span> </h1>
+
+ 
+
+</section>
+<!-- deal section start here -->
+
+<section class="blogs" id="blogs">
+
+    
+  
+    <div class="box-container">
+  
+ 
+  
+        <div class="box">
+            <img src="menuimages/images/65.PNG" alt="">
+ 
+            <div class="content">
+       
+                <h3>Cone Ice-cream</h3>
+                <h2>Buy one get 1 Free</h2>
+                <h3>$5.50</h3>
+                <div>
+                   <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <span>( 250 )</span>
+                   </div>
+               
+                </div>
+              
+              
+                <p>heavy cream, egg yolks, sea salt, coconut milk, chocolate(flavour).</p>
+                <a href="#" class="btn">order now</a>
+ 
+            </div>
+        </div>
+ 
+        <div class="box" >
+          <img src="menuimages/images/67.PNG" alt="">
+ 
+          <div class="content">
+     
+              <h3>Scoopie</h3>
+              <h2>Buy one get 2 Free</h2>
+              <h3>$6.20</h3>
+              <div>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                 </div>
+             
+              </div>
+            
+            
+              <p>heavy cream, egg yolks, sea salt, coconut milk, chocolate(flavour).</p>
+              <a href="#" class="btn">order now</a>
+ 
+          </div>
+      </div>
+  
+    </div>
+  
+  </section>
+
+
+<!-- deal section ends here -->
+
+
+<!--                      ROLS ENDS                                    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- newslwtter starts here -->
+<section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign Up For newsletter</h4>
+      <p>Get our E-mails update about our latest shop and <span>special offers</span></p>
+    </div>
+    <div class="form">
+      <input type="text" placeholder="your email adress">
+      <button class="normal">Sign Up</button>
+    </div>
+  </section>
+<!--newsletter ends here  -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> food way's <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> foodways@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> karachi, pakistan </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="menu2.html" class="links"> <i class="fas fa-arrow-right"></i> menu </a>
+            <a href="Events.html" class="links"> <i class="fas fa-arrow-right"></i> events </a>
+            <a href="Booking.html" class="links"> <i class="fas fa-arrow-right"></i> booking </a>
+            <a href="Booking.html" class="links"> <i class="fas fa-arrow-right"></i> contact </a>
+            <a href="blog.html" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> web designer </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

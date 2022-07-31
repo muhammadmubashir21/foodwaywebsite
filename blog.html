@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Way's resturant website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Food Way's </a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="menu2.html">Menu</a>
+        <a href="Events.html">Events</a>
+        <a href="Booking.html">Booking</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="menuimages/images/7.png" alt="">
+            <div class="content">
+                <h3>tikka</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="menuimages/images/8.PNG" alt="">
+            <div class="content">
+                <h3>beef burger</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="menuimages/images/9.PNG" alt="">
+            <div class="content">
+                <h3>chicken wings</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $19.69/- </div>
+        <a href="checkout.html" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="signin.html">click here</a></p>
+        <p>don't have an account <a href="signin.html">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <p>ONE STEP</p>
+        <h3><span>D&nbsp;E&nbsp;L&nbsp;I&nbsp;C&nbsp;I&nbsp;O&nbsp;U&nbsp;S</span></h3>
+        <h3>f&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; p&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e</h3>
+        <p>We pride our self on the quality of our food.Each dish is carefully crafted by our chef who brings 20 years of experiance on the table.We use high quality fresh ingredients in our dishes,in order to ensure that our customers have best table experiance.</p>
+        <!-- <a href="menu2.html" class="btn">Order Now</a> -->
+    </div>
+
+</section>
+<!-- home section ends -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- blogs section starts  -->
+
+<!--  <section class="blogs" id="blogs"> -->
+
+    <!-- <h1 class="heading"><span> our blogs </span></h1> -->
+  
+    <!-- <div class="box-container">
+  
+        <div class="box">
+            <img src="image/blog-1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                <a href="blog1.html" class="btn">read more</a>
+            </div>
+        </div>
+  
+        <div class="box">
+            <img src="image/blog-2.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                <a href="blog1.html" class="btn">read more</a>
+            </div>
+        </div>
+  
+        <div class="box">
+            <img src="image/blog-3.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                <a href="blog1.html" class="btn">read more</a>
+            </div>
+        </div>
+  
+    </div> -->
+  
+  </section> -->
+  
+  <!-- blogs section ends -->
+  
+  <!-- blogs section starts  -->
+  
+  <h1 class="heading"><span> our blogs </span></h1>
+
+  <section class="blogs" id="blogs">
+  
+  
+    <div class="box-container">
+  
+        <div class="box">
+            <img src="menuimages/images/90.PNG" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Robert </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2019 </a>
+                </div>
+                <h3>MOTHER’S DAY AT HOME</h3>
+                <p>let us make this mother day specials for our mothers.</p>
+                <a href="blog1.html" class="btn">read more</a>
+            </div>
+        </div>
+  
+        <div class="box">
+            <img src="menuimages/images/92.PNG" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Alex </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 31st may, 2011 </a>
+                </div>
+                <h3>BURGER AND A BEER FRIDAY</h3>
+                <p>celebrate every friday with delicious burger and beef.</p>
+                <a href="blog2.html" class="btn">read more</a>
+            </div>
+        </div>
+  
+        <div class="box">
+            <img src="menuimages/images/93.PNG" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Naveed </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 11 march, 2010 </a>
+                </div>
+                <h3>READY TO GRILL PROTEIN</h3>
+                <p>it's time to fun with friends and family for healthy eating</p>
+                <a href="blog3.html" class="btn">read more</a>
+            </div>
+        </div>
+  
+    </div>
+  
+  </section>
+  
+  <!-- blogs section ends -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- newslwtter starts here -->
+<section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign Up For newsletter</h4>
+      <p>Get our E-mails update about our latest shop and <span>special offers</span></p>
+    </div>
+    <div class="form">
+      <input type="text" placeholder="your email adress">
+      <button class="normal">Sign Up</button>
+    </div>
+  </section>
+<!--newsletter ends here  -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> food way's <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> foodways@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> karachi, pakistan </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="menu2.html" class="links"> <i class="fas fa-arrow-right"></i> menu </a>
+            <a href="Events.html" class="links"> <i class="fas fa-arrow-right"></i> events </a>
+            <a href="Booking.html" class="links"> <i class="fas fa-arrow-right"></i> booking </a>
+            <a href="Booking.html" class="links"> <i class="fas fa-arrow-right"></i> contact </a>
+            <a href="blog.html" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> web designer </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Way's resturant website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Food Way's </a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="menu2.html">Menu</a>
+        <a href="Events.html">Events</a>
+        <a href="Booking.html">Booking</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="menuimages/images/7.png" alt="">
+            <div class="content">
+                <h3>tikka</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="menuimages/images/8.PNG" alt="">
+            <div class="content">
+                <h3>beef burger</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="menuimages/images/9.PNG" alt="">
+            <div class="content">
+                <h3>chicken tikka</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $19.69/- </div>
+        <a href="checkout.html" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="signin.html">click here</a></p>
+        <p>don't have an account <a href="signin.html">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3> <span>Reserve your Table</span></h3>
+       
+        <a href="#Reservation" class="btn">click here</a>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+  <!-- footer section starts  -->
+
+  <section class="footer" style="margin-left: 140px ;margin-right: 140px ; margin-top: 30px ;margin-bottom: 10px ;">
+
+    <div class="box-container">
+
+
+
+        <div class="box">
+            <h3>contact us</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> foodways@gmail.com </a>
+        </div>
+
+        <div class="box" style="margin-left:5px;">
+            <h3> Social Media </h3>
+            <p>contact us via social media.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <h3>Email us</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <!-- <img src="image/payment.png" class="payment-img" alt=""> -->
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+</section>
+  <!-- event and party section ends here -->
+
+
+<!--   email section start here -->
+
+<section class="blogs" id="blogs">
+
+
+  
+    <div class="box-container">
+  
+ 
+  
+
+ 
+        <div class="box" style="padding:30px; ">
+            <!-- <img src="menuimages/images/82.PNG" alt="" style="height: 15%;"> -->
+ 
+            <div class="content">
+       
+                <h3 style="font-size:40px;">Send us an Email</h3>
+
+                
+                <h2>Name</h2>
+                <input type="text" placeholder=" enter your name" style="border:1px solid rgb(45, 43, 43);width:40%; height:35px;">
+
+                <h2>Email</h2>
+                <input type="email" placeholder=" enter your email" style="border:1px solid rgb(45, 43, 43);width:40%; height:35px;">
+
+              
+                <h2>Message</h2>
+                <form action="" style="border: 1px solid rgb(45, 43, 43); width: 70%;">
+                    <textarea name="" id="" cols="20" rows="7" placeholder="enter your message"></textarea>
+                </form>
+                                         
+                <br><br>
+                <a href="#" class="btn">Submit</a>
+                <br>
+
+            </div>
+
+
+        </div>
+
+
+        
+  
+    </div>
+  
+  </section>
+  <!-- email  section ends here -->
+
+
+
+
+
+<!--reservation section start here -->
+<a href="" name="Reservation"></a>
+
+<section class="blogs" id="blogs">
+
+
+  
+    <div class="box-container">
+  
+ 
+  
+
+ 
+        <div class="box" style="padding:30px; ">
+            <!-- <img src="menuimages/images/82.PNG" alt="" style="height: 15%;"> -->
+ 
+            <div class="content">
+       
+                <h3 style="font-size:40px;">Reservation</h3>
+
+                
+                <h2>Name</h2>
+                <input type="text" placeholder=" enter your name" style="border:1px solid rgb(45, 43, 43);width:40%; height:35px;">
+
+                <h2>Email</h2>
+                <input type="email" placeholder=" enter your email" style="border:1px solid rgb(45, 43, 43);width:40%; height:35px;">
+
+
+                <h2>Date</h2>
+                <input type="date" placeholder=" enter your event date" style="border:1px solid rgb(45, 43, 43);width:40%; height:35px;">
+
+                <h2>Time</h2>
+                <input type="time" placeholder=" enter your event time" style="border:1px solid rgb(45, 43, 43);width:40%; height:35px;">
+
+                <h2>Number of Guests</h2>
+                <input type="number" placeholder=" enter your total guest number" style="border:1px solid rgb(45, 43, 43);width:40%; height:35px;">
+                                         
+                <br><br><br>
+                <a href="#" class="btn">Submit</a>
+                <br>
+
+            </div>
+
+
+        </div>
+
+
+        
+  
+    </div>
+  
+  </section>
+  <!-- reservation section ends here -->
+
+
+
+
+
+
+
+
+<!-- about us starts -->
+<section class="blogs" id="blogs">
+
+
+  
+    <div class="box-container">
+  
+ 
+  
+
+ 
+        <div class="box" style="padding:30px;">
+            <!-- <img src="menuimages/images/82.PNG" alt="" style="height: 65%;"> -->
+ 
+            <div class="content">
+       
+                <h3 style="font-size:40px;">About Us</h3>
+                
+                <h2>Food way's restaurant.</h2>
+                <br>
+                                         
+                <p>Food way's restaurant is the best online fast food provider.</p>
+                <p>''Food Way's Restaurant Group is all about a more satisfying
+                    restaurant experience - on every level. Here you are truly
+                    our guest, and taken care of at every moment. In every last
+                    one of our locations, in all their variety, that feeling is there"
+                    </p>
+                <!-- <a href="#Event Enquiry" class="btn">Event Enquiry</a> -->
+                <!-- <a href="deal.html" class="btn">Function Details</a> -->
+
+            </div>
+
+
+        </div>
+
+
+       
+
+
+        <div class="box" style="padding:20px;">
+            <img src="menuimages/images/87.PNG" alt="" style="height: 100%;">
+ 
+       
+        </div>
+
+
+  
+    </div>
+  
+
+
+
+  </section>
+
+<!-- about us ends here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- newslwtter starts here -->
+<section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign Up For newsletter</h4>
+      <p>Get our E-mails update about our latest shop and <span>special offers</span></p>
+    </div>
+    <div class="form">
+      <input type="text" placeholder="your email adress">
+      <button class="normal">Sign Up</button>
+    </div>
+  </section>
+<!--newsletter ends here  -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> food way's <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> foodways@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> karachi, pakistan </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="menu2.html" class="links"> <i class="fas fa-arrow-right"></i> menu </a>
+            <a href="Events.html" class="links"> <i class="fas fa-arrow-right"></i> events </a>
+            <a href="Booking.html" class="links"> <i class="fas fa-arrow-right"></i> booking </a>
+            <a href="Booking.html" class="links"> <i class="fas fa-arrow-right"></i> contact </a>
+            <a href="blog.html" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> web designer </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
